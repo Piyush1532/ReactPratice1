@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-
+import Fetchdata from './assigment3/fetchdata'
 import './App.css'
-import GetData from './Components/Fetch'
-
+import { Route, Routes } from "react-router-dom";
+import FormComp from './assigment3/form';
 function App() {
 //   const [count, setCount] = useState(0)
 //   const [showPara,setPara]=useState(true)
@@ -73,7 +73,9 @@ function App() {
       return <Homecompo title={data.title} desc={data.desc} color={data.color} />
      })} */}
    </div>
-
+   <Routes>
+        <Route path="*" element={<Fetchdata />} />
+      </Routes>
 
     </>
   )

@@ -41,7 +41,6 @@ const GetData = () => {
         })}
        </div>
        <div>
-        <Todoapp1/>
        </div>
     </div>
     
