@@ -74,7 +74,7 @@ function App() {
      })} */}
    </div>
    <Routes>
-        <Route path="*" element={<Fetchdata />} />
+        <Route path="/" element={<Fetchdata />} />
       </Routes>
 
     </>

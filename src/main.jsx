@@ -13,6 +13,7 @@ import { BrowserRouter } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
 import FormComp from './assigment3/form'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   // <App/>
@@ -21,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
  //<Todoapp1></Todoapp1>
  <BrowserRouter>
   <Routes>
-      <Route path="*" element={<App />} />
+      <Route path="/" element={<App />} />
       <Route path="/form" element={<FormComp />} />
       <Route path="/fetchdata" element={<Fetchdata />} />
     </Routes>
