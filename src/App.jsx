@@ -73,9 +73,9 @@ function App() {
       return <Homecompo title={data.title} desc={data.desc} color={data.color} />
      })} */}
    </div>
-   <Routes>
+   {/* <Routes>
         <Route path="/" element={<Fetchdata />} />
-      </Routes>
+      </Routes> */}
 
     </>
   )
