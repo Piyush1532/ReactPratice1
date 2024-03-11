@@ -7,10 +7,11 @@ import { BrowserRouter } from 'react-router-dom';
 // import { Route, Routes } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
+import CallBack1 from './Hooks/callback';
+import ParentCount from './Hooks/count';
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
- 
-<MemoPractice/>
+ <ParentCount/>
 //  <BrowserRouter>
 //   <Routes>
 //       <Route path="/" element={<App />} />
